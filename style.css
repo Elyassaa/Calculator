@@ -1,0 +1,91 @@
+
+body{
+  align-items: center;
+  background: linear-gradient(320deg, #4e54c8, #8f94fb, #6dd5ed);
+  background-color: rgb( #eb92be, #ffef78, #63c9b4);
+  display: flex;
+  font-family: 'Dosis', 'sans-serif';
+  font-display: swap;
+  height: inherit;
+  justify-content: center;
+
+  .wrapper{
+    backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    flex-basis: 300px;
+    height: 340px;
+    padding: 20px 35px;
+  }
+
+  .screen{
+    border-radius: 15%;
+    box-shadow: 0 1px 100px;
+    font-size: 29px;
+    overflow: auto;
+    width: 336;
+    margin-bottom: 20px;
+  }
+  .calc-button {
+    /*background-color: #4CAF50;*/
+     background-color: #008080;
+    border: none;
+    color: white; 
+    font-size: 1em;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 60px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .calc-button-sy {
+   /*background-color: #FF9800;*/
+    background-color:#FF8C00 ;
+    border: none;
+    color: wheat; 
+    font-size: 1em;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 60px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .calc-button.double {
+    width: 134px; 
+    background-color:#578eb3
+  }
+
+  .calc-button.triple {
+    width: 207.5px;
+    background-color:#578eb3;
+  }
+  .calc-button-sy:hover {
+    background-color: #E68900;
+    transform: translateY(-2px);
+  }
+
+  .calc-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+
+  .calc-button:active {
+    background-color: #3e8e41;
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  }
+}
